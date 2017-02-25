@@ -37,3 +37,12 @@ $("#learnMore").click( function() {
     eventLabel: 'learnMore'
   });
 });
+
+$("#inputEmail").click( function() {
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'h',
+    eventAction: 'track',
+    eventLabel: 'emailInput'
+  });
+});
