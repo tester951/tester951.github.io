@@ -3,8 +3,8 @@ $("#emailSubmit").click( function() {
   ga('send', {
     hitType: 'event',
     eventCategory: 'conversion',
-    eventAction: 'signUp',
-    eventLabel: 'h'
+    eventAction: 'h',
+    eventLabel: 'signUp'
   });
 
   window.location.href = "./error.html";
@@ -15,8 +15,8 @@ $("#signUpHeader").click( function() {
   ga('send', {
     hitType: 'event',
     eventCategory: 'track',
-    eventAction: 'click',
-    eventLabel: 'h-signUpHeader'
+    eventAction: 'h',
+    eventLabel: 'signUpHeader'
   });
 });
 
@@ -24,8 +24,8 @@ $("#signUpBanner").click( function() {
   ga('send', {
     hitType: 'event',
     eventCategory: 'track',
-    eventAction: 'click',
-    eventLabel: 'h-signUpBanner'
+    eventAction: 'h',
+    eventLabel: 'signUpBanner'
   });
 });
 
@@ -33,7 +33,7 @@ $("#learnMore").click( function() {
   ga('send', {
     hitType: 'event',
     eventCategory: 'track',
-    eventAction: 'click',
-    eventLabel: 'h-learnMore'
+    eventAction: 'h',
+    eventLabel: 'learnMore'
   });
 });
